@@ -1,0 +1,6 @@
+{
+  "name": "Por que tudo está tão caro? - Economia Descomplicada",
+  "description": "Plataforma educacional interativa que explica inflação, taxa de juros e economia de forma simples, fluída e gamificada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
