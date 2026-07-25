@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, RefreshCw, Compass, Activity, BookOpen, Brain, HelpCircle, Code2 } from 'lucide-react';
+import { Sparkles, RefreshCw, Compass, Activity, BookOpen, Brain, HelpCircle, Code2, Youtube } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const scrollTo = (id: string) => {
@@ -36,6 +36,19 @@ export const Footer: React.FC = () => {
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
               Plataforma educacional e gamificada que traduz conceitos de economia, inflação, taxa de juros e oferta para uma linguagem universal, simples e acessível a qualquer pessoa.
             </p>
+
+            {/* Referência e Crédito da Aula/Vídeo */}
+            <div className="pt-2">
+              <a 
+                href="https://www.youtube.com/watch?v=1ulzj3dJ4EA" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-red-950/30 border border-red-900/40 text-red-400 hover:bg-red-900/40 hover:text-red-300 transition-all font-medium text-xs group"
+              >
+                <Youtube className="w-4 h-4 text-red-500 group-hover:scale-110 transition-transform" />
+                <span>Inspirado na aula de <strong>Breno Perrucho (Jovens de Negócios)</strong></span>
+              </a>
+            </div>
           </div>
 
           {/* Nav Links (4 cols) */}
