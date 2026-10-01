@@ -9,6 +9,13 @@ export interface NewsTranslation {
   isFallback?: boolean;
 }
 
+export type AIProvider = 'gemini' | 'openai' | 'groq';
+
+export interface AIConfig {
+  provider: AIProvider;
+  apiKey: string;
+}
+
 export interface GlossaryTerm {
   id: string;
   term: string;
